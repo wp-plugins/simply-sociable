@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=steph
 Tags: blog, social media, google, google+, facebook, twitter, social, share links, social network
 Requires at least: 2.0.2
 Tested up to: 3.1.1
-Stable tag: 4.3
+Stable tag: 1.0.1
 
 Adds social media links for Google+, Twitter, and Facebook to the bottom of each blog post.
 
@@ -31,7 +31,7 @@ Nope.
 
 == Changelog ==
 
-= 1.1 =
+= 1.0.1 =
 * Tweaked to fix minor bug and add horizontal rule.
 
 = 1.0 =
