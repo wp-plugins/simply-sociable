@@ -14,7 +14,14 @@ This plug-in will automatically append social media links to the bottom of each 
 
 == Installation ==
 
-This section describes how to install the plugin.
+Automatic Installation
+
+1. On the left side of your Wordpress Dashboard, click Plugins -> Add New.
+1. Search for "Simply Sociable".
+1. Click Install Now.
+1. Click Activate.
+
+Manual Installation
 
 1. Upload the `/simply-sociable/` directory into the `/wp-content/plugins/`
 1. Activate the plugin through the 'Plugins' menu in WordPress
