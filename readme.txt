@@ -31,7 +31,7 @@ Nope.
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
 * Tweaked to fix minor bug and add horizontal rule.
 
 = 1.0 =
