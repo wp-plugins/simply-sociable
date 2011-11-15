@@ -4,7 +4,7 @@ Plugin Name: Simply Sociable
 Plugin URI: 
 Description: Automatically adds share buttons to the end of each blog post for Google+, Twitter, and Facebook.
 Version: 1.0
-Author: Stephan Wozniak
+Author: Steve Wozniak
 Author URI: http://stephanwozniak.com
 License: GPLv2
 */
