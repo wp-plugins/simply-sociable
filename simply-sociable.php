@@ -20,6 +20,7 @@ function simply_sociable($content)
 	if(is_single() && !is_home()) {
 	$content .= '<style type="text/css">.fb_iframe_widget { vertical-align: top !important; margin-left: 16px !important; }</style>';
 		$content .= '
+			<hr />
 			<div class="share-widgets">
 			<!-- Place this tag in your head or just before your close body tag -->
 			<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
