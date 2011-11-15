@@ -1,10 +1,10 @@
 === Simply Sociable ===
 Contributors: stephan.wozniak
-Donate link: stephan.wozniak@gmail.com
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stephan%2ewozniak%40gmail%2ecom&lc=US&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: blog, social media, google, google+, facebook, twitter, social, share links, social network
 Requires at least: 2.0.2
 Tested up to: 3.1.1
-Stable tag: 4.3
+Stable tag: 1.0.1
 
 Adds social media links for Google+, Twitter, and Facebook to the bottom of each blog post.
 
@@ -31,10 +31,16 @@ Nope.
 
 == Changelog ==
 
+= 1.0.1 =
+* Tweaked to fix minor bug and add horizontal rule.
+
 = 1.0 =
 * Initial version of plug-in. Supports Google+, Twitter, and Facebook.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fixes a small bug with display and adds a horizontal rule above the section of widgets.
 
 = 1.0 =
 * From nothing to something.
