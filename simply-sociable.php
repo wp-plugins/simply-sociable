@@ -3,7 +3,7 @@
 Plugin Name: Simply Sociable
 Plugin URI: 
 Description: Automatically adds share buttons to the end of each blog post for Google+, Twitter, and Facebook.
-Version: 1.0
+Version: 1.0.1
 Author: Steve Wozniak
 Author URI: http://stephanwozniak.com
 License: GPLv2
@@ -29,7 +29,7 @@ function simply_sociable($content)
 
 			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="thingeedigital">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 
-			<div class="fb-like" data-href="'.the_permalink().'" data-send="true" data-layout="button_count" data-width="120" data-show-faces="false"></div>
+			<div class="fb-like" data-href="'.get_permalink($post->ID).'" data-send="true" data-layout="button_count" data-width="120" data-show-faces="false"></div>
 
 
 			</div>';

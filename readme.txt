@@ -32,9 +32,15 @@ Nope.
 == Changelog ==
 
 = 1.0 =
+* Tweaked to fix minor bug and add horizontal rule.
+
+= 1.0 =
 * Initial version of plug-in. Supports Google+, Twitter, and Facebook.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fixes a small bug with display and adds a horizontal rule above the section of widgets.
 
 = 1.0 =
 * From nothing to something.
