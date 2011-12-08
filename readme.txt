@@ -39,7 +39,7 @@ Nope.
 == Changelog ==
 
 = 1.0.2 =
-* Removed referral account.
+* Adjusted referral account.
 
 = 1.0.1 =
 * Tweaked to fix minor bug and add horizontal rule.
@@ -50,7 +50,7 @@ Nope.
 == Upgrade Notice ==
 
 = 1.0.2 =
-* Removed referral account.
+* Adjusted referral account.
 
 = 1.0.1 =
 * Fixes a small bug with display and adds a horizontal rule above the section of widgets.
