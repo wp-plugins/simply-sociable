@@ -3,8 +3,8 @@ Contributors: stephan.wozniak
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stephan%2ewozniak%40gmail%2ecom&lc=US&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: blog, social media, google, google+, facebook, twitter, social, share links, social network
 Requires at least: 2.0.2
-Tested up to: 3.1.1
-Stable tag: 1.0.2
+Tested up to: 4.1
+Stable tag: 1.0.3
 
 Adds social media links for Google+, Twitter, and Facebook to the bottom of each blog post.
 
@@ -37,6 +37,9 @@ Manual Installation
 Nope.
 
 == Changelog ==
+
+= 1.0.3 =
+* Adding support for WordPress v4 and enforcing adherence to WordPress style guide.
 
 = 1.0.2 =
 * Adjusted referral account.

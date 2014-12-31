@@ -10,10 +10,10 @@ License: GPLv2
 */
 
 function simply_sociable_load_js() {
-	wp_enqueue_script('simply_sociable_load_js', get_bloginfo('wpurl') . '/wp-content/plugins/simply-sociable/sociable.js');
+	wp_enqueue_script( 'simply_sociable_load_js', get_bloginfo( 'wpurl' ) . '/wp-content/plugins/simply-sociable/sociable.js' );
 }
 function simply_sociable_load_css() {
-	wp_enqueue_script('simply_sociable_load_css', get_bloginfo('wpurl') . '/wp-content/plugins/simply-sociable/sociable.css');
+	wp_enqueue_script( 'simply_sociable_load_css', get_bloginfo( 'wpurl' ) . '/wp-content/plugins/simply-sociable/sociable.css' );
 }
 function simply_sociable($content)
 {
@@ -27,10 +27,9 @@ function simply_sociable($content)
 			<!-- Place this tag where you want the +1 button to render -->
 			<g:plusone size="medium"></g:plusone>
 
-
 			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-related="stephanwozniak">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 
-			<div class="fb-like" data-href="'.get_permalink($post->ID).'" data-send="true" data-layout="button_count" data-width="120" data-show-faces="false"></div>
+			<div class="fb-like" data-href="' . get_permalink( $post->ID ) . '" data-send="true" data-layout="button_count" data-width="120" data-show-faces="false"></div>
 
 
 			</div>';
@@ -38,8 +37,8 @@ function simply_sociable($content)
 	return $content;
 }
 
-add_action('init','simply_sociable_load_js');
-add_action('init','simply_sociable_load_css');
-add_action('the_content','simply_sociable');
+add_action( 'init', 'simply_sociable_load_js' );
+add_action( 'init', 'simply_sociable_load_css' );
+add_action( 'the_content' ,'simply_sociable' );
 
 ?>
